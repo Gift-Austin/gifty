@@ -4,8 +4,12 @@
     box-sizing: border-box;
 }
 
-body {
+html {
     font-size: 62.5%;
+}
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
 }
 
 .hero {
@@ -13,3 +17,177 @@ body {
     background-size: cover;
     height: 100vh;
 }
+
+.nav {
+    color: #fbfafa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    margin-right: 3rem;
+}
+
+.nav h2 {
+    font-size: 2rem;
+    margin: 4rem 9rem;
+}
+
+.nav ul li a {
+    font-size: 2rem;
+    margin-left: 5rem;
+    color: #fbfafa;
+    text-decoration: none;
+}
+
+.heroitem {
+    color: #fbfafa;
+    width: 50%;
+    top: 57%;
+    position: absolute;
+    transform: translateY(-50%);
+    margin-left: 9rem;
+}
+
+.heroitem h2 {
+    font-size: 5rem;
+    line-height: 10rem;
+    
+}
+
+.heroitem p {
+    font-size: 2rem;
+    margin-bottom: 14rem;
+}
+
+.heroitem ul {
+    list-style: none;
+}
+
+.heroitem ul li a {
+    text-decoration: underline;
+    color: #fbfafa;
+    font-size: 2rem;
+}
+
+.aboutsection {
+    width: 87%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+.aboutsection h3 {
+    font-size: 4rem;
+    margin: 4rem 0;
+}
+
+.aboutsection p {
+    font-size: 2rem;
+    line-height: 4rem;
+}
+
+.section {
+    background-color: #f0f0f1;
+    padding-top: 1rem;
+    padding-bottom: 9rem;
+}
+
+.progress {
+    padding:0;
+    width:100%;
+    height:24px;
+    overflow:hidden;
+    background:#F5D6AB;
+  }
+  
+  .bar {
+      position:relative;
+    float:left;
+    min-width:1%;
+    height:100%;
+    background:#C66C49;
+  }
+
+  .skillsection {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .skillsectionimg {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .skillsectionimg img {
+    width: 35rem;
+  }
+
+  .skillsection h2 {
+    font-size: 4rem;
+    margin: 4rem 0px;
+  }
+
+  .skillsectionitems {
+      margin-top: 1rem;
+  }
+
+  .skillsectionitems ul {
+    list-style: none;
+    line-height: 4.45rem;
+  }
+
+  .skillsectionitems ul li {
+      font-size: 2rem;
+  }
+
+  .skillsectionitemstwo {
+    margin-top: -1.2rem;
+  }
+
+  .skillsectionitemstwo p {
+    line-height: 6.5rem;
+    font-size: 2rem;
+  }
+  .sectionthreeitem {
+      display: flex;
+      padding: 6rem;
+  }
+
+  .sectionthreeitemone {
+      width: 40%;
+  }
+
+  .sectionthreeitemtwo {
+      width: 60%;
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap: 2rem;
+  }
+
+
+  .sectionthreeitemtwo img {
+      width: 100%;
+  }
+
+  .imageone {
+      width: 40rem !important;
+      height: 18rem;
+  }
+
+  .imagetwo {
+    height: 29rem;
+}
+
+.image_three {
+    height: 31rem;
+    margin-top: -11rem !important;
+}
+
+.image_four {
+    height: 20rem;
+}
+  
+  
