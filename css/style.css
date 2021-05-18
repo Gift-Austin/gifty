@@ -136,7 +136,7 @@ body {
 
   .skillsectionitems ul {
     list-style: none;
-    line-height: 4.45rem;
+    line-height: 2.12;
   }
 
   .skillsectionitems ul li {
@@ -148,7 +148,7 @@ body {
   }
 
   .skillsectionitemstwo p {
-    line-height: 6.5rem;
+    line-height: 3.21;
     font-size: 2rem;
   }
   .sectionthreeitem {
@@ -158,13 +158,27 @@ body {
 
   .sectionthreeitemone {
       width: 40%;
+      padding: 2rem 6rem;
   }
+
+  .sectionthreeitemone h4 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .sectionthreeitemone p {
+    font-size: 1.5rem;
+    line-height: 1.15;
+  }
+
+
 
   .sectionthreeitemtwo {
       width: 60%;
       display: grid;
       grid-template-columns: repeat(2,1fr);
       gap: 2rem;
+      padding: 7rem 0;
   }
 
 
@@ -188,6 +202,10 @@ body {
 
 .image_four {
     height: 20rem;
+}
+
+.sectionthree h2 {
+    margin: 4rem 12rem
 }
   
   
