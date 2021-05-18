@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+}
+
+.hero {
+    background: url('../images/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg');
+    background-size: cover;
+    height: 100vh;
+}
