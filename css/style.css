@@ -183,6 +183,12 @@ body {
 
   .sectionthreeitemtwo img {
       width: 100%;
+      object-fit: cover;
+      image-rendering: -webkit-optimize-contrast;
+      border: .1rem solid #000;
+}
+
+
   }
 
   .imageone {
